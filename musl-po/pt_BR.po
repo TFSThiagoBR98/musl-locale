@@ -1,133 +1,140 @@
+# tfsthiagobr98 <contato@tfs.dev.br>, 2021.
 msgid ""
 msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Language: pt_BR\n"
+"X-Language: en_US\n"
 "X-Source-Language: C\n"
+"Last-Translator: tfsthiagobr98 <contato@tfs.dev.br>\n"
+"PO-Revision-Date: 2021-04-19 21:58-0300\n"
+"Project-Id-Version: \n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"Language: pt_BR\n"
+"X-Generator: Lokalize 20.12.3\n"
 
 #: ../musl/musl-1.1.14/ldso/dynlink.c:1700
 #, c-format
 msgid "Error loading shared library %s: %m"
-msgstr "Error loading shared library %s: %m"
+msgstr "Erro ao carregar biblioteca compartilhada %s: %m"
 
 #: ../musl/musl-1.1.14/ldso/dynlink.c:1603
 #, c-format
 msgid "%s: Error getting %zu bytes thread-local storage: %m\n"
-msgstr "%s: Error getting %zu bytes thread-local storage: %m\n"
+msgstr "%s: Erro ao obter %zu bytes do armazenamento de thread-local: %m\n"
 
 #: ../musl/musl-1.1.14/ldso/dynlink.c:1699
 #, c-format
 msgid "Library %s is not already loaded"
-msgstr "Library %s is not already loaded"
+msgstr "Biblioteca %s não está atualmente carregada"
 
 #: ../musl/musl-1.1.14/ldso/dynlink.c:1503
 #, c-format
 msgid "%s: %s: Not a valid dynamic program\n"
-msgstr "%s: %s: Not a valid dynamic program\n"
+msgstr "%s: %s: Não é um programa dinâmico válido\n"
 
 #: ../musl/musl-1.1.14/ldso/dynlink.c:1087
 #, c-format
 msgid "Error loading shared library %s: %m (needed by %s)"
-msgstr "Error loading shared library %s: %m (needed by %s)"
+msgstr "Erro ao carregar biblioteca compartilhada %s: %m (necessária para %s)"
 
 #: ../musl/musl-1.1.14/ldso/dynlink.c:1158
 #, c-format
 msgid "Error relocating %s: RELRO protection failed: %m"
-msgstr "Error relocating %s: RELRO protection failed: %m"
+msgstr "Erro ao realocar %s: proteção RELRO falhou: %m"
 
 #: ../musl/musl-1.1.14/ldso/dynlink.c:875
 #, c-format
 msgid "Error allocating function descriptors for %s"
-msgstr "Error allocating function descriptors for %s"
+msgstr "Erro ao realocar o descritor da função para %s"
 
 #: ../musl/musl-1.1.14/ldso/dynlink.c:448
 #, c-format
 msgid "Error relocating %s: unsupported relocation type %d"
-msgstr "Error relocating %s: unsupported relocation type %d"
+msgstr "Erro ao realocar %s: tipo de realocação não suportado %d"
 
 #: ../musl/musl-1.1.14/src/exit/assert.c:6
 #, c-format
 msgid "Assertion failed: %s (%s: %s: %d)\n"
-msgstr "Assertion failed: %s (%s: %s: %d)\n"
+msgstr "Assertion falhou: %s (%s: %s: %d)\n"
 
 #: ../musl/musl-1.1.14/ldso/dynlink.c:340
 #, c-format
 msgid "Error relocating %s: %s: symbol not found"
-msgstr "Error relocating %s: %s: symbol not found"
+msgstr "Erro ao realocar %s: %s: símbolo não encontrado"
 
 #: ../musl/musl-1.1.14/ldso/dynlink.c:426
 #, c-format
 msgid "Error relocating %s: cannot allocate TLSDESC for %s"
-msgstr "Error relocating %s: cannot allocate TLSDESC for %s"
+msgstr "Erro ao realocar %s: não é possível alocar TLSDESC para %s"
 
 #: ../musl/musl-1.1.14/src/ldso/dlerror.c:14
 msgid "Dynamic linker failed to allocate memory for error message"
-msgstr "Dynamic linker failed to allocate memory for error message"
+msgstr "O linker dinâmico falhou ao alocar memória para a mensagem de erro"
 
 #: ../musl/musl-1.1.14/src/ldso/dlerror.c:60
 #: ../musl/musl-1.1.14/ldso/dynlink.c:1742
 #, c-format
 msgid "Invalid library handle %p"
-msgstr "Invalid library handle %p"
+msgstr "Manipulador de biblioteca inválido %p"
 
 #: ../musl/musl-1.1.14/src/ldso/dlopen.c:9
 msgid "Dynamic loading not supported"
-msgstr "Dynamic loading not supported"
+msgstr "Carregamento dinâmico não suportado"
 
 #: ../musl/musl-1.1.14/src/ldso/dlinfo.c:14
 #, c-format
 msgid "Unsupported request %d"
-msgstr "Unsupported request %d"
+msgstr "Requisição não suportada %d"
 
 #: ../musl/musl-1.1.14/src/ldso/__dlsym.c:9
 #: ../musl/musl-1.1.14/ldso/dynlink.c:1824
 #, c-format
 msgid "Symbol not found: %s"
-msgstr "Symbol not found: %s"
+msgstr "Símbolo não encontrado: %s"
 
 #: ../musl/musl-1.1.14/src/malloc/malloc.c:143
 #, c-format
 msgid "missing from binmap!\n"
-msgstr "missing from binmap!\n"
+msgstr "não encontrado no mapa binário\n"
 
 #: ../musl/musl-1.1.14/src/malloc/malloc.c:145
 #, c-format
 msgid "binmap wrongly contains %d!\n"
-msgstr "binmap wrongly contains %d!\n"
+msgstr "mapa binário erradamente contém %d!\n"
 
 #: ../musl/musl-1.1.14/src/misc/fmtmsg.c:30
 msgid "label"
-msgstr "label"
+msgstr "rótulo"
 
 #: ../musl/musl-1.1.14/src/misc/fmtmsg.c:30
 msgid "severity"
-msgstr "severity"
+msgstr "gravidade"
 
 #: ../musl/musl-1.1.14/src/misc/fmtmsg.c:30
 msgid "text"
-msgstr "text"
+msgstr "texto"
 
 #: ../musl/musl-1.1.14/src/misc/fmtmsg.c:30
 msgid "action"
-msgstr "action"
+msgstr "ação"
 
 #: ../musl/musl-1.1.14/src/misc/fmtmsg.c:30
 msgid "tag"
-msgstr "tag"
+msgstr "etiqueta"
 
 #: ../musl/musl-1.1.14/src/misc/fmtmsg.c:36
 msgid "HALT: "
-msgstr "HALT: "
+msgstr "SUSPENSO: "
 
 #: ../musl/musl-1.1.14/src/misc/fmtmsg.c:37
 msgid "ERROR: "
-msgstr "ERROR: "
+msgstr "ERRO: "
 
 #: ../musl/musl-1.1.14/src/misc/fmtmsg.c:38
 msgid "WARNING: "
-msgstr "WARNING: "
+msgstr "AVISO: "
 
 #: ../musl/musl-1.1.14/src/misc/fmtmsg.c:39
 msgid "INFO: "
@@ -135,290 +142,290 @@ msgstr "INFO: "
 
 #: ../musl/musl-1.1.14/src/misc/getopt_long.c:84
 msgid ": option does not take an argument: "
-msgstr ": option does not take an argument: "
+msgstr ": opção não recebe argumento: "
 
 #: ../musl/musl-1.1.14/src/misc/getopt_long.c:95
 #: ../musl/musl-1.1.14/src/misc/getopt.c:91
 msgid ": option requires an argument: "
-msgstr ": option requires an argument: "
+msgstr ": opcão requer um argumento: "
 
 #: ../musl/musl-1.1.14/src/misc/getopt_long.c:112
 msgid ": option is ambiguous: "
-msgstr ": option is ambiguous: "
+msgstr ": option é ambígua: "
 
 #: ../musl/musl-1.1.14/src/misc/getopt_long.c:113
 #: ../musl/musl-1.1.14/src/misc/getopt.c:83
 msgid ": unrecognized option: "
-msgstr ": unrecognized option: "
+msgstr ": opção não reconhecida: "
 
 #: ../musl/musl-1.1.14/src/regex/regerror.c:13
 msgid "No error"
-msgstr "No error"
+msgstr "Sem erro"
 
 #: ../musl/musl-1.1.14/src/string/strsignal.c:57
 msgid "Unknown signal"
-msgstr "Unknown signal"
+msgstr "Sinal desconhecido"
 
 #: ../musl/musl-1.1.14/src/network/hstrerror.c:6
 msgid "Host not found"
-msgstr "Host not found"
+msgstr "Host não encontrado"
 
 #: ../musl/musl-1.1.14/src/network/gai_strerror.c:5
 msgid "Invalid flags"
-msgstr "Invalid flags"
+msgstr "Flags inválidas"
 
 #: ../musl/musl-1.1.14/src/time/strftime.c:89
 #, c-format
 msgid "%2d"
-msgstr ""
+msgstr "%2d"
 
 #: ../musl/musl-1.1.14/src/time/strftime.c:92
 msgid "%Y-%m-%d"
-msgstr "%d-%m-%Y"
+msgstr "%Y-%m-%d"
 
 #: ../musl/musl-1.1.14/src/time/strftime.c:141
 msgid "\t"
-msgstr ""
+msgstr "\t"
 
 #: ../musl/musl-1.1.14/src/time/strftime.c:174
 #, c-format
 msgid "+%lld"
-msgstr ""
+msgstr "+%lld"
 
 #: ../musl/musl-1.1.14/src/time/strftime.c:184
 #, c-format
 msgid "%+.2d%.2d"
-msgstr ""
+msgstr "%+.2d%.2d"
 
 #: ../musl/musl-1.1.14/src/time/strftime.c:202
 #, c-format
 msgid "%0*lld"
-msgstr ""
+msgstr "%0*lld"
 
 msgid "Illegal byte sequence"
-msgstr "Illegal byte sequence"
+msgstr "Sequência ilegal de bytes"
 
 msgid "Domain error"
-msgstr "Domain error"
+msgstr "Erro de domínio"
 
 msgid "Result not representable"
-msgstr "Result not representable"
+msgstr "Resultado não representável"
 
 msgid "Not a tty"
-msgstr "Not a tty"
+msgstr "Não é tty"
 
 msgid "Permission denied"
-msgstr "Permission denied"
+msgstr "Permissão negada"
 
 msgid "Operation not permitted"
-msgstr "Operation not permitted"
+msgstr "Operação não permitida"
 
 msgid "No such file or directory"
-msgstr "No such file or directory"
+msgstr "Arquivo ou diretório não encontrado"
 
 msgid "No such process"
-msgstr "No such process"
+msgstr "Esse processo não existe"
 
 msgid "File exists"
-msgstr "File exists"
+msgstr "Arquivo existe"
 
 msgid "Value too large for data type"
-msgstr "Value too large for data type"
+msgstr "Valor muito grande para o tipo de dado"
 
 msgid "No space left on device"
-msgstr "No space left on device"
+msgstr "Não há mais espaço no dispositivo"
 
 msgid "Resource busy"
-msgstr "Resource busy"
+msgstr "Recurso ocupado"
 
 msgid "Interrupted system call"
-msgstr "Interrupted system call"
+msgstr "Chamada de sistema interrompida"
 
 msgid "Resource temporarily unavailable"
-msgstr "Resource temporarily unavailable"
+msgstr "Recurso temporáriamente indisponível"
 
 msgid "Invalid seek"
-msgstr "Invalid seek"
+msgstr "Busca(seek) inválido"
 
 msgid "Cross-device link"
-msgstr "Cross-device link"
+msgstr "Link entre dispositivos"
 
 msgid "Read-only file system"
-msgstr "Read-only file system"
+msgstr "Sistema de arquivos somente leitura"
 
 msgid "Directory not empty"
-msgstr "Directory not empty"
+msgstr "Diretório não vazio"
 
 msgid "Connection reset by peer"
-msgstr "Connection reset by peer"
+msgstr "Conexão redefinida pelo peer"
 
 msgid "Operation timed out"
-msgstr "Operation timed out"
+msgstr "Operação expirou"
 
 msgid "Connection refused"
-msgstr "Connection refused"
+msgstr "Conexão recusada"
 
 msgid "Host is down"
-msgstr "Host is down"
+msgstr "Host está indisponível"
 
 msgid "Host is unreachable"
-msgstr "Host is unreachable"
+msgstr "O host está inacessível"
 
 msgid "Address in use"
-msgstr "Address in use"
+msgstr "Endereço em uso"
 
 msgid "Broken pipe"
-msgstr "Broken pipe"
+msgstr "Pipe quebrado"
 
 msgid "I/O error"
-msgstr "I/O error"
+msgstr "erro de entrada e saida (I/O)"
 
 msgid "No such device or address"
-msgstr "No such device or address"
+msgstr "Endereço ou dispositivo não existe"
 
 msgid "Block device required"
-msgstr "Block device required"
+msgstr "Dispositivo Block necessário"
 
 msgid "No such device"
-msgstr "No such device"
+msgstr "Dispositivo não existe"
 
 msgid "Not a directory"
-msgstr "Not a directory"
+msgstr "Não é um diretório"
 
 msgid "Is a directory"
-msgstr "Is a directory"
+msgstr "É um diretório"
 
 msgid "Text file busy"
-msgstr "Text file busy"
+msgstr "Arquivo de texto ocupado"
 
 msgid "Exec format error"
-msgstr "Exec format error"
+msgstr "Erro do formato do executável"
 
 msgid "Invalid argument"
-msgstr "Invalid argument"
+msgstr "Argumento inválido"
 
 msgid "Argument list too long"
-msgstr "Argument list too long"
+msgstr "Lista de argumentos muito longa"
 
 msgid "Symbolic link loop"
-msgstr "Symbolic link loop"
+msgstr "Link simbólico em loop"
 
 msgid "Filename too long"
-msgstr "Filename too long"
+msgstr "Nome de arquivo muito longo"
 
 msgid "Too many open files in system"
-msgstr "Too many open files in system"
+msgstr "Muitos arquivos abertos no sistema"
 
 msgid "No file descriptors available"
-msgstr "No file descriptors available"
+msgstr "Nenhum descritor de arquivos disponível"
 
 msgid "Bad file descriptor"
-msgstr "Bad file descriptor"
+msgstr "Descritor de arquivo inválido"
 
 msgid "No child process"
-msgstr "No child process"
+msgstr "Nenhum processo inválido"
 
 msgid "Bad address"
-msgstr "Bad address"
+msgstr "Endereço inválido"
 
 msgid "File too large"
-msgstr "File too large"
+msgstr "Arquivo muito grande"
 
 msgid "Too many links"
-msgstr "Too many links"
+msgstr "Muitos links"
 
 msgid "No locks available"
-msgstr "No locks available"
+msgstr "Nenhum bloqueio disponível"
 
 msgid "Resource deadlock would occur"
-msgstr "Resource deadlock would occur"
+msgstr "Um deadlock de recurso pode ocorrer"
 
 msgid "State not recoverable"
-msgstr "State not recoverable"
+msgstr "Estado não recuperável"
 
 msgid "Previous owner died"
-msgstr "Previous owner died"
+msgstr "Antigo proprietário foi morto"
 
 msgid "Operation canceled"
-msgstr "Operation canceled"
+msgstr "Operação cancelada"
 
 msgid "Function not implemented"
-msgstr "Function not implemented"
+msgstr "Função não implementada"
 
 msgid "No message of desired type"
-msgstr "No message of desired type"
+msgstr "Nenhuma mensagem do tipo disponível"
 
 msgid "Identifier removed"
-msgstr "Identifier removed"
+msgstr "Identificador removido"
 
 msgid "Device not a stream"
-msgstr "Device not a stream"
+msgstr "Dispositivo não é um fluxo de dados"
 
 msgid "No data available"
-msgstr "No data available"
+msgstr "Nenhum dado disponível"
 
 msgid "Device timeout"
-msgstr "Device timeout"
+msgstr "O dispositivo expirou"
 
 msgid "Out of streams resources"
-msgstr "Out of streams resources"
+msgstr "Falta de recursos de fluxo de dados"
 
 msgid "Link has been severed"
-msgstr "Link has been severed"
+msgstr "O link foi danificado"
 
 msgid "Protocol error"
-msgstr "Protocol error"
+msgstr "Erro de protocolo"
 
 msgid "Bad message"
-msgstr "Bad message"
+msgstr "Mensagem inválida"
 
 msgid "File descriptor in bad state"
-msgstr "File descriptor in bad state"
+msgstr "Descritor de arquivo em um estado inválido"
 
 msgid "Not a socket"
-msgstr "Not a socket"
+msgstr "Não é um socket"
 
 msgid "Destination address required"
-msgstr "Destination address required"
+msgstr "Endereço de destino necessário"
 
 msgid "Message too large"
-msgstr "Message too large"
+msgstr "Mensagem muito grande"
 
 msgid "Protocol wrong type for socket"
-msgstr "Protocol wrong type for socket"
+msgstr "Tipo errado de protocolo para o socket"
 
 msgid "Protocol not available"
-msgstr "Protocol not available"
+msgstr "Protocolo não disponível"
 
 msgid "Protocol not supported"
-msgstr "Protocol not supported"
+msgstr "Protocolo não suportado"
 
 msgid "Socket type not supported"
-msgstr "Socket type not supported"
+msgstr "Tipo de socket inválido"
 
 msgid "Not supported"
-msgstr "Not supported"
+msgstr "Não suportado"
 
 msgid "Protocol family not supported"
-msgstr "Protocol family not supported"
+msgstr "Família de protocolos não suportada"
 
 msgid "Address family not supported by protocol"
-msgstr "Address family not supported by protocol"
+msgstr "Família de protocolos não suportada pelo protocolo"
 
 msgid "Address not available"
-msgstr "Address not available"
+msgstr "Endereço não disponível"
 
 msgid "Network is down"
-msgstr "Network is down"
+msgstr "Rede não disponível"
 
 msgid "Network unreachable"
-msgstr "Network unreachable"
+msgstr "Rede inacessível"
 
 msgid "Connection reset by network"
-msgstr "Connection reset by network"
+msgstr "Conexão redefinida pela rede"
 
 msgid "Connection aborted"
-msgstr "Connection aborted"
+msgstr "Conexão abortada"
 
 msgid "No buffer space available"
 msgstr "No buffer space available"
@@ -456,170 +463,248 @@ msgstr "Wrong medium type"
 msgid "No error information"
 msgstr "No error information"
 
-msgid "Sun"
-msgstr "dom"
+msgid "abday_1"
+msgstr "Dom"
 
-msgid "Mon"
-msgstr "seg"
+msgid "abday_2"
+msgstr "Seg"
 
-msgid "Tue"
-msgstr "ter"
+msgid "abday_3"
+msgstr "Ter"
 
-msgid "Wed"
-msgstr "qua"
+msgid "abday_4"
+msgstr "Qua"
 
-msgid "Thu"
-msgstr "qui"
+msgid "abday_5"
+msgstr "Qui"
 
-msgid "Fri"
-msgstr "sex"
+msgid "abday_6"
+msgstr "Sex"
 
-msgid "Sat"
-msgstr "sáb"
+msgid "abday_7"
+msgstr "Sáb"
 
-msgid "Sunday"
-msgstr "domingo"
+msgid "day_1"
+msgstr "Domingo"
 
-msgid "Monday"
-msgstr "segunda-feira"
+msgid "day_2"
+msgstr "Segunda"
 
-msgid "Tuesday"
-msgstr "terça-feira"
+msgid "day_3"
+msgstr "Terça"
 
-msgid "Wednesday"
-msgstr "quarta-feira"
+msgid "day_4"
+msgstr "Quarta"
 
-msgid "Thursday"
-msgstr "quinta-feira"
+msgid "day_5"
+msgstr "Quinta"
 
-msgid "Friday"
-msgstr "sexta-feira"
+msgid "day_6"
+msgstr "Sexta"
 
-msgid "Saturday"
-msgstr "sábado"
+msgid "day_7"
+msgstr "Sábado"
 
-msgid "Jan"
-msgstr "jan"
+msgid "abmon_1"
+msgstr "Jan"
 
-msgid "Feb"
-msgstr "fev"
+msgid "abmon_2"
+msgstr "Feb"
 
-msgid "Mar"
-msgstr "mar"
+msgid "abmon_3"
+msgstr "Mar"
 
-msgid "Apr"
-msgstr "abr"
+msgid "abmon_4"
+msgstr "Abr"
 
-msgid "May"
-msgstr "mai"
+msgid "abmon_5"
+msgstr "Mai"
 
-msgid "Jun"
-msgstr "jun"
+msgid "abmon_6"
+msgstr "Jun"
 
-msgid "Jul"
-msgstr "jul"
+msgid "abmon_7"
+msgstr "Jul"
 
-msgid "Aug"
-msgstr "ago"
+msgid "abmon_8"
+msgstr "Ago"
 
-msgid "Sep"
-msgstr "set"
+msgid "abmon_9"
+msgstr "Set"
 
-msgid "Oct"
-msgstr "out"
+msgid "abmon_10"
+msgstr "Out"
 
-msgid "Nov"
-msgstr "nov"
+msgid "abmon_11"
+msgstr "Nov"
 
-msgid "Dec"
-msgstr "dez"
+msgid "abmon_12"
+msgstr "Dez"
 
-msgid "January"
-msgstr "janeiro"
+msgid "mon_1"
+msgstr "January"
 
-msgid "February"
-msgstr "fevereiro"
+msgid "mon_2"
+msgstr "February"
 
-msgid "March"
-msgstr "março"
+msgid "mon_3"
+msgstr "March"
 
-msgid "April"
-msgstr "abril"
+msgid "mon_4"
+msgstr "April"
 
-msgid "June"
-msgstr "junho"
+msgid "mon_5"
+msgstr "June"
 
-msgid "July"
-msgstr "julho"
+msgid "mon_6"
+msgstr "July"
 
-msgid "August"
-msgstr "agosto"
+msgid "mon_7"
+msgstr "August"
 
-msgid "September"
-msgstr "setembro"
+msgid "mon_8"
+msgstr "September"
 
-msgid "October"
-msgstr "outubro"
+msgid "mon_9"
+msgstr "October"
 
-msgid "November"
-msgstr "novembro"
+msgid "mon_10"
+msgstr "November"
 
-msgid "December"
-msgstr "dezembro"
+msgid "mon_11"
+msgstr "December"
 
-msgid "AM"
-msgstr ""
+msgid "am"
+msgstr "AM"
 
-msgid "PM"
-msgstr ""
+msgid "am"
+msgstr "PM"
 
-msgid "%a %b %e %T %Y"
-msgstr "%a %d %b %Y %T"
+msgid "d_t_fmt"
+msgstr "%a %b %e %T %Y"
 
 #: ../musl/musl-1.1.14/src/time/strptime.c:54
 #: ../musl/musl-1.1.14/src/time/strftime.c:86
-msgid "%m/%d/%y"
-msgstr "%d/%m/%Y"
+msgid "d_fmt"
+msgstr "%m/%d/%y"
 
 #: ../musl/musl-1.1.14/src/time/strptime.c:106
 #: ../musl/musl-1.1.14/src/time/strftime.c:130
-msgid "%H:%M"
+msgid "t_fmt"
+msgstr "%H:%M"
+
+msgid "t_fmt_ampm"
+msgstr "%I:%M:%S %p"
+
+msgid "era"
 msgstr ""
+
+msgid "era_year"
+msgstr ""
+
+msgid "era_d_fmt"
+msgstr "%m/%d/%y"
+
+msgid "alt_digits"
+msgstr "0123456789"
+
+msgid "era_d_t_fmt"
+msgstr "%a %b %e %T %Y %Z"
 
 #: ../musl/musl-1.1.14/src/time/strptime.c:115
 #: ../musl/musl-1.1.14/src/time/strftime.c:143
-msgid "%H:%M:%S"
-msgstr ""
+msgid "era_t_fmt"
+msgstr "%H:%M:%S"
 
-msgid "%I:%M:%S %p"
-msgstr ""
+msgid "yesexpr"
+msgstr "^[yYSs]"
 
-msgid "0123456789"
-msgstr ""
+msgid "noexpr"
+msgstr "^[nN]"
 
-msgid "%a %b %e %T %Y %Z"
-msgstr "%a %d %b %Y %T %Z"
-
-msgid "^[yY]"
-msgstr "^[+1oOyY]"
-
-msgid "^[nN]"
-msgstr "^[-0nN]"
-
-msgid "yes"
+msgid "yesstr"
 msgstr "sim"
 
-msgid "no"
+msgid "nostr"
 msgstr "não"
 
-msgid "."
+msgid "decimal_point"
 msgstr ","
+
+msgid "thousands_sep"
+msgstr "."
+
+msgid "grouping"
+msgstr "3;3"
+
+msgid "int_curr_symbol"
+msgstr "BRL "
+
+msgid "currency_symbol"
+msgstr "R$"
+
+msgid "mon_decimal_point"
+msgstr ","
+
+msgid "mon_thousands_sep"
+msgstr "."
+
+msgid "mon_grouping"
+msgstr "3;3"
+
+msgid "positive_sign"
+msgstr ""
+
+msgid "negative_sign"
+msgstr "-"
+
+msgid "int_frac_digits"
+msgstr "2"
+
+msgid "frac_digits"
+msgstr "2"
+
+msgid "p_cs_precedes"
+msgstr "1"
+
+msgid "p_sep_by_space"
+msgstr "1"
+
+msgid "n_cs_precedes"
+msgstr "1"
+
+msgid "n_sep_by_space"
+msgstr "1"
+
+msgid "p_sign_posn"
+msgstr "1"
+
+msgid "n_sign_posn"
+msgstr "1"
+
+msgid "int_p_cs_precedes"
+msgstr ""
+
+msgid "int_p_sep_by_space"
+msgstr ""
+
+msgid "int_n_cs_precedes"
+msgstr ""
+
+msgid "int_n_sep_by_space"
+msgstr ""
+
+msgid "int_p_sign_posn"
+msgstr ""
+
+msgid "int_n_sign_posn"
+msgstr ""
 
 msgid "Name does not resolve"
 msgstr "Name does not resolve"
 
 msgid "Try again"
-msgstr "Try again"
+msgstr "Tentar novamente"
 
 msgid "Non-recoverable error"
 msgstr "Non-recoverable error"

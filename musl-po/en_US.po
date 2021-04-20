@@ -456,164 +456,242 @@ msgstr "Wrong medium type"
 msgid "No error information"
 msgstr "No error information"
 
-msgid "Sun"
+msgid "abday_1"
 msgstr "Sun"
 
-msgid "Mon"
+msgid "abday_2"
 msgstr "Mon"
 
-msgid "Tue"
+msgid "abday_3"
 msgstr "Tue"
 
-msgid "Wed"
+msgid "abday_4"
 msgstr "Wed"
 
-msgid "Thu"
+msgid "abday_5"
 msgstr "Thu"
 
-msgid "Fri"
+msgid "abday_6"
 msgstr "Fri"
 
-msgid "Sat"
+msgid "abday_7"
 msgstr "Sat"
 
-msgid "Sunday"
+msgid "day_1"
 msgstr "Sunday"
 
-msgid "Monday"
+msgid "day_2"
 msgstr "Monday"
 
-msgid "Tuesday"
+msgid "day_3"
 msgstr "Tuesday"
 
-msgid "Wednesday"
+msgid "day_4"
 msgstr "Wednesday"
 
-msgid "Thursday"
+msgid "day_5"
 msgstr "Thursday"
 
-msgid "Friday"
+msgid "day_6"
 msgstr "Friday"
 
-msgid "Saturday"
+msgid "day_7"
 msgstr "Saturday"
 
-msgid "Jan"
+msgid "abmon_1"
 msgstr "Jan"
 
-msgid "Feb"
+msgid "abmon_2"
 msgstr "Feb"
 
-msgid "Mar"
+msgid "abmon_3"
 msgstr "Mar"
 
-msgid "Apr"
+msgid "abmon_4"
 msgstr "Apr"
 
-msgid "May"
+msgid "abmon_5"
 msgstr "May"
 
-msgid "Jun"
+msgid "abmon_6"
 msgstr "Jun"
 
-msgid "Jul"
+msgid "abmon_7"
 msgstr "Jul"
 
-msgid "Aug"
+msgid "abmon_8"
 msgstr "Aug"
 
-msgid "Sep"
+msgid "abmon_9"
 msgstr "Sep"
 
-msgid "Oct"
+msgid "abmon_10"
 msgstr "Oct"
 
-msgid "Nov"
+msgid "abmon_11"
 msgstr "Nov"
 
-msgid "Dec"
+msgid "abmon_12"
 msgstr "Dec"
 
-msgid "January"
+msgid "mon_1"
 msgstr "January"
 
-msgid "February"
+msgid "mon_2"
 msgstr "February"
 
-msgid "March"
+msgid "mon_3"
 msgstr "March"
 
-msgid "April"
+msgid "mon_4"
 msgstr "April"
 
-msgid "June"
+msgid "mon_5"
 msgstr "June"
 
-msgid "July"
+msgid "mon_6"
 msgstr "July"
 
-msgid "August"
+msgid "mon_7"
 msgstr "August"
 
-msgid "September"
+msgid "mon_8"
 msgstr "September"
 
-msgid "October"
+msgid "mon_9"
 msgstr "October"
 
-msgid "November"
+msgid "mon_10"
 msgstr "November"
 
-msgid "December"
+msgid "mon_11"
 msgstr "December"
 
-msgid "AM"
+msgid "am"
 msgstr "AM"
 
-msgid "PM"
+msgid "am"
 msgstr "PM"
 
-msgid "%a %b %e %T %Y"
+msgid "d_t_fmt"
 msgstr "%a %b %e %T %Y"
 
 #: ../musl/musl-1.1.14/src/time/strptime.c:54
 #: ../musl/musl-1.1.14/src/time/strftime.c:86
-msgid "%m/%d/%y"
+msgid "d_fmt"
 msgstr "%m/%d/%y"
 
 #: ../musl/musl-1.1.14/src/time/strptime.c:106
 #: ../musl/musl-1.1.14/src/time/strftime.c:130
-msgid "%H:%M"
+msgid "t_fmt"
 msgstr "%H:%M"
+
+msgid "t_fmt_ampm"
+msgstr "%I:%M:%S %p"
+
+msgid "era"
+msgstr ""
+
+msgid "era_year"
+msgstr ""
+
+msgid "era_d_fmt"
+msgstr "%m/%d/%y"
+
+msgid "alt_digits"
+msgstr "0123456789"
+
+msgid "era_d_t_fmt"
+msgstr "%a %b %e %T %Y %Z"
 
 #: ../musl/musl-1.1.14/src/time/strptime.c:115
 #: ../musl/musl-1.1.14/src/time/strftime.c:143
-msgid "%H:%M:%S"
+msgid "era_t_fmt"
 msgstr "%H:%M:%S"
 
-msgid "%I:%M:%S %p"
-msgstr "%I:%M:%S %p"
-
-msgid "0123456789"
-msgstr "0123456789"
-
-msgid "%a %b %e %T %Y %Z"
-msgstr "%a %b %e %T %Y %Z"
-
-msgid "^[yY]"
+msgid "yesexpr"
 msgstr "^[yY]"
 
-msgid "^[nN]"
+msgid "noexpr"
 msgstr "^[nN]"
 
-msgid "yes"
+msgid "yesstr"
 msgstr "yes"
 
-msgid "no"
+msgid "nostr"
 msgstr "no"
 
-msgid "."
+msgid "decimal_point"
 msgstr "."
+
+msgid "thousands_sep"
+msgstr ""
+
+msgid "grouping"
+msgstr "3;3"
+
+msgid "int_curr_symbol"
+msgstr ""
+
+msgid "currency_symbol"
+msgstr ""
+
+msgid "mon_decimal_point"
+msgstr ""
+
+msgid "mon_thousands_sep"
+msgstr ""
+
+msgid "mon_grouping"
+msgstr ""
+
+msgid "positive_sign"
+msgstr ""
+
+msgid "negative_sign"
+msgstr ""
+
+msgid "int_frac_digits"
+msgstr ""
+
+msgid "frac_digits"
+msgstr ""
+
+msgid "p_cs_precedes"
+msgstr ""
+
+msgid "p_sep_by_space"
+msgstr ""
+
+msgid "n_cs_precedes"
+msgstr ""
+
+msgid "n_sep_by_space"
+msgstr ""
+
+msgid "p_sign_posn"
+msgstr ""
+
+msgid "n_sign_posn"
+msgstr ""
+
+msgid "int_p_cs_precedes"
+msgstr ""
+
+msgid "int_p_sep_by_space"
+msgstr ""
+
+msgid "int_n_cs_precedes"
+msgstr ""
+
+msgid "int_n_sep_by_space"
+msgstr ""
+
+msgid "int_p_sign_posn"
+msgstr ""
+
+msgid "int_n_sign_posn"
+msgstr ""
 
 msgid "Name does not resolve"
 msgstr "Name does not resolve"
