@@ -8,7 +8,7 @@ msgstr ""
 "X-Language: en_US\n"
 "X-Source-Language: C\n"
 "Last-Translator: tfsthiagobr98 <contato@tfs.dev.br>\n"
-"PO-Revision-Date: 2021-04-19 21:58-0300\n"
+"PO-Revision-Date: 2021-04-19 22:56-0300\n"
 "Project-Id-Version: \n"
 "Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -464,129 +464,132 @@ msgid "No error information"
 msgstr "No error information"
 
 msgid "abday_1"
-msgstr "Dom"
+msgstr "dom"
 
 msgid "abday_2"
-msgstr "Seg"
+msgstr "seg"
 
 msgid "abday_3"
-msgstr "Ter"
+msgstr "ter"
 
 msgid "abday_4"
-msgstr "Qua"
+msgstr "qua"
 
 msgid "abday_5"
-msgstr "Qui"
+msgstr "qui"
 
 msgid "abday_6"
-msgstr "Sex"
+msgstr "sex"
 
 msgid "abday_7"
-msgstr "Sáb"
+msgstr "sáb"
 
 msgid "day_1"
-msgstr "Domingo"
+msgstr "domingo"
 
 msgid "day_2"
-msgstr "Segunda"
+msgstr "segunda"
 
 msgid "day_3"
-msgstr "Terça"
+msgstr "terça"
 
 msgid "day_4"
-msgstr "Quarta"
+msgstr "quarta"
 
 msgid "day_5"
-msgstr "Quinta"
+msgstr "quinta"
 
 msgid "day_6"
-msgstr "Sexta"
+msgstr "sexta"
 
 msgid "day_7"
-msgstr "Sábado"
+msgstr "sábado"
 
 msgid "abmon_1"
-msgstr "Jan"
+msgstr "jan"
 
 msgid "abmon_2"
-msgstr "Feb"
+msgstr "feb"
 
 msgid "abmon_3"
-msgstr "Mar"
+msgstr "mar"
 
 msgid "abmon_4"
-msgstr "Abr"
+msgstr "abr"
 
 msgid "abmon_5"
-msgstr "Mai"
+msgstr "mai"
 
 msgid "abmon_6"
-msgstr "Jun"
+msgstr "jun"
 
 msgid "abmon_7"
-msgstr "Jul"
+msgstr "jul"
 
 msgid "abmon_8"
-msgstr "Ago"
+msgstr "ago"
 
 msgid "abmon_9"
-msgstr "Set"
+msgstr "set"
 
 msgid "abmon_10"
-msgstr "Out"
+msgstr "out"
 
 msgid "abmon_11"
-msgstr "Nov"
+msgstr "nov"
 
 msgid "abmon_12"
-msgstr "Dez"
+msgstr "dez"
 
 msgid "mon_1"
-msgstr "January"
+msgstr "janeiro"
 
 msgid "mon_2"
-msgstr "February"
+msgstr "fevereiro"
 
 msgid "mon_3"
-msgstr "March"
+msgstr "março"
 
 msgid "mon_4"
-msgstr "April"
+msgstr "abril"
 
 msgid "mon_5"
-msgstr "June"
+msgstr "maio"
 
 msgid "mon_6"
-msgstr "July"
+msgstr "junho"
 
 msgid "mon_7"
-msgstr "August"
+msgstr "julho"
 
 msgid "mon_8"
-msgstr "September"
+msgstr "agosto"
 
 msgid "mon_9"
-msgstr "October"
+msgstr "setembro"
 
 msgid "mon_10"
-msgstr "November"
+msgstr "outubro"
 
 msgid "mon_11"
-msgstr "December"
+msgstr "novembro"
+
+msgid "mon_12"
+msgstr "dezembro"
 
 msgid "am"
 msgstr "AM"
 
-msgid "am"
+msgid "pm"
 msgstr "PM"
 
 msgid "d_t_fmt"
-msgstr "%a %b %e %T %Y"
+msgstr "%a %d %b %Y %T"
 
 #: ../musl/musl-1.1.14/src/time/strptime.c:54
 #: ../musl/musl-1.1.14/src/time/strftime.c:86
 msgid "d_fmt"
-msgstr "%m/%d/%y"
+msgstr "%d/%m/%Y"
 
 #: ../musl/musl-1.1.14/src/time/strptime.c:106
 #: ../musl/musl-1.1.14/src/time/strftime.c:130
@@ -603,13 +606,13 @@ msgid "era_year"
 msgstr ""
 
 msgid "era_d_fmt"
-msgstr "%m/%d/%y"
+msgstr "%d/%m/%y"
 
 msgid "alt_digits"
 msgstr "0123456789"
 
 msgid "era_d_t_fmt"
-msgstr "%a %b %e %T %Y %Z"
+msgstr "%a %d %b %Y %T %Z"
 
 #: ../musl/musl-1.1.14/src/time/strptime.c:115
 #: ../musl/musl-1.1.14/src/time/strftime.c:143
@@ -635,7 +638,7 @@ msgid "thousands_sep"
 msgstr "."
 
 msgid "grouping"
-msgstr "3;3"
+msgstr ""
 
 msgid "int_curr_symbol"
 msgstr "BRL "
@@ -650,7 +653,7 @@ msgid "mon_thousands_sep"
 msgstr "."
 
 msgid "mon_grouping"
-msgstr "3;3"
+msgstr ""
 
 msgid "positive_sign"
 msgstr ""
@@ -746,13 +749,13 @@ msgid "Invalid back reference"
 msgstr "Invalid back reference"
 
 msgid "Missing ']'"
-msgstr "Missing ']'"
+msgstr "Faltando ']'"
 
 msgid "Missing ')'"
-msgstr "Missing ')'"
+msgstr "Faltando ')'"
 
 msgid "Missing '}'"
-msgstr "Missing '}'"
+msgstr "Faltando '}'"
 
 msgid "Invalid contents of {}"
 msgstr "Invalid contents of {}"
@@ -770,7 +773,7 @@ msgid "Interrupt"
 msgstr "Interrupt"
 
 msgid "Quit"
-msgstr "Quit"
+msgstr "Sair"
 
 msgid "Illegal instruction"
 msgstr "Illegal instruction"
@@ -779,22 +782,22 @@ msgid "Trace/breakpoint trap"
 msgstr "Trace/breakpoint trap"
 
 msgid "Aborted"
-msgstr "Aborted"
+msgstr "Abortado"
 
 msgid "Bus error"
-msgstr "Bus error"
+msgstr "Erro de bus"
 
 msgid "Arithmetic exception"
 msgstr "Arithmetic exception"
 
 msgid "Killed"
-msgstr "Killed"
+msgstr "Morto"
 
 msgid "User defined signal 1"
 msgstr "User defined signal 1"
 
 msgid "Segmentation fault"
-msgstr "Segmentation fault"
+msgstr "Falha de segmentação"
 
 msgid "User defined signal 2"
 msgstr "User defined signal 2"
